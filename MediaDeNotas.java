@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // biblioteca do java, adiciona o scanner para o usuario digitar o código.. ctrl c ctrl v se for pedir algo pro usuario escrever
 
 public class MediaDeNotas {
 
@@ -6,7 +6,7 @@ public class MediaDeNotas {
         Scanner input = new Scanner(System.in);
         int n1, n2, media;
 
-        System.out.println("Informe o valor da primeira nota:");
+        System.out.println("Informe o valor da primeira nota:"); //ctrl c ctrl v se for pedir algo pro usuario escrever
         n1 = input.nextInt();
 
         System.out.println("Informe o valor da segundanota:");
